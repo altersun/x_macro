@@ -1,12 +1,12 @@
 #pragma once
 
 #define XX_VALUES \
-    XX_VALUE(THREE, 3) \
-    XX_VALUE(FIFTEEN, 15) \
-    XX_VALUE(TWENTYFOUR, 24) \
-    XX_VALUE(FIFTYSEVEN, 57) \
-    XX_VALUE(NINTEYNINE, 99) \
-    XX_VALUE(ONETHIRTYONE, 131) 
+    XX_VALUE(XX_THREE, 3) \
+    XX_VALUE(XX_FIFTEEN, 15) \
+    XX_VALUE(XX_TWENTYFOUR, 24) \
+    XX_VALUE(XX_FIFTYSEVEN, 57) \
+    XX_VALUE(XX_NINTEYNINE, 99) \
+    XX_VALUE(XX_ONETHIRTYONE, 131) 
 
 #define XX_VALUE(name, number) name=number,
 typedef enum {
@@ -26,6 +26,7 @@ extern "C" {
 #endif
 
 const char* get_xx_value_name(xx_value_index_t index);
+void print_all_xx_names(void);
 
 #ifdef __cplusplus
 }
