@@ -27,7 +27,7 @@ It's not! I mostly came up with the XX Macro as a puzzle to solve.
 
 
 ## I want to know more about the X Macro!
-Like a lot of things in life, the [Wikipedia article](Like a lot of things in life, reading the Wikipedia article on it isn't a bad place to start.) isn't a bad place to start.
+Like a lot of things in life, the [Wikipedia article ](https://en.wikipedia.org/wiki/X_Macro)isn't a bad place to start.
 
 
 ## How do I see this code in action?
